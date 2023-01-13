@@ -1,6 +1,7 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 import figlet from "figlet";
+
 figlet(`To Do List`, (err, data) => {
     if (err) {
         console.log("Something went wrong");
